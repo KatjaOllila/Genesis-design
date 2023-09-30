@@ -1,0 +1,11 @@
+.box {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    display: flex;
+    &_card {
+        width: 50%;
+        height: 80%;
+        display: flex;
+    }
+}

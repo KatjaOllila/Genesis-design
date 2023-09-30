@@ -2,12 +2,12 @@ header {
     max-width: 100%;
     width: 100%;
     height: 30px;
-    display: flex;
-    grid-row: 1fr;
-    grid-column: 4fr;
+    display: flex;    
 }
 .nav {
+    min-width: 600px;
     width: 80%;
     height: 90%;
-
+    display: flex;
+    font-family: 'Rajdhani', sans-serif;   
 }
