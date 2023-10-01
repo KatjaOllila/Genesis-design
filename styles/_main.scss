@@ -237,3 +237,47 @@
     position: relative;                
     border: 1px solid red;
 }
+.select {
+    -webkit-appearance: none;    
+    background-color: white;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    color: beige;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+    font-family: 'Rajdhani', sans-serif; 
+}
+.label,  .btn {
+    display: flex;      
+    margin-top: 20px;
+    margin-left: 15px;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 13px;
+}
+input, textarea {      
+    margin-top: 5px;
+    margin-left: 15px;    
+    color: black;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+    font-family: 'Rajdhani', sans-serif;    
+}
+input:hover, button:hover, textarea:hover, select:hover {
+    background-color: rgb(216, 131, 131)    
+}
+button {
+    width: 90px;
+    height: 20px;
+    display: flex;
+    align-content: center; 
+    justify-content: center;
+    background-color: rgb(88, 88, 221);
+    
+    
+
+}
