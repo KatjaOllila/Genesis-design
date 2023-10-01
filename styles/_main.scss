@@ -149,6 +149,38 @@
     &_six {
         grid-row: 20/24;
         grid-column: 7/9;
-    }  
+    }
+    &_seven {
+        grid-row: 2/8;
+        grid-column: 13/16;
+    }
+    &_eight {
+        grid-row: 8/14;
+        grid-column: 13/16;
+    }
+    &_nine {
+        grid-row: 14/20;
+        grid-column: 13/16;
+    }
+    &_ten {
+        grid-row: 20/24;
+        grid-column: 13/16;
+    }
+    &_eleven {
+        grid-row: 2/6;
+        grid-column: 17/18;
+    }
+    &_twelve {
+        grid-row: 8/11;
+        grid-column: 17/18;
+    }
+    &_thirteen {
+        grid-row: 14/17;
+        grid-column: 17/18;
+    }
+    &_fourteen {
+        grid-row: 20/24;
+        grid-column: 17/18; 
+    }
 }
 
