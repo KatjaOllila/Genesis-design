@@ -53,5 +53,8 @@ a {
 .link {
     margin-left: 10px;
     margin-right: 10px;
+    &:hover {
+        color: aqua;
+    }
 }
 
