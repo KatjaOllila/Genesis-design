@@ -5,8 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;    
-    border: 1px solid red;
+    align-items: center;      
     &_card-left {
         width: 48%;
         min-width: 48%;
@@ -14,16 +13,14 @@
         display: flex;
         display: block;
         justify-content: left;
-        position: relative;
-        border: 1px solid black;        
+        position: relative;                
     }
     &_card-right {
         width: 48%;
         height: 80%;
         display: flex;
         justify-content: right;
-        position: relative;
-        border: 1px solid black;  
+        position: relative;         
     }
     &_text {
         width: 60%;
@@ -31,16 +28,14 @@
         display: flex; 
         position: relative;
         justify-content: left;
-        align-items: center;
-        border: 1px solid black;
+        align-items: center;        
     }
     &_skills {
         width: 20%;
         height: 90%;
         display: flex; 
         position: relative;         
-        display: block;            
-        border: 1px solid black;
+        display: block;       
         padding-top: 20px;
     }
     &_projects {
@@ -58,6 +53,15 @@
             display: flex;
             flex-direction: column;
         }
+    }   
+    &_card-last {
+        width: 60%;
+        min-width: 60%;
+        height: 80%;
+        display: flex;
+        display: block;
+        justify-content: left;        
+        position: relative;     
     }
 
 }
@@ -65,8 +69,7 @@
     width: 200px;
     height: 20px;
     display: flex;
-    align-self: flex-end;
-    border: 1px solid red;
+    align-self: flex-end;    
 }
 .grid {
     width: 98%;
@@ -208,8 +211,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;                
-    border: 1px solid red;
+    position: relative;       
     &_text {
         width: 95%;
         max-width: 95%;
@@ -219,8 +221,7 @@
         position: relative;        
         margin-left: 20px; 
         margin-top: 20px;
-        margin-bottom: 20px;    
-
+        margin-bottom: 20px;  
     }
 }
 .img-container-two {
@@ -234,8 +235,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;                
-    border: 1px solid red;
+    position: relative;              
 }
 .select {
     -webkit-appearance: none;    
@@ -276,8 +276,6 @@ button {
     display: flex;
     align-content: center; 
     justify-content: center;
-    background-color: rgb(88, 88, 221);
-    
-    
-
+    background-color: rgb(88, 88, 221);  
+ 
 }
